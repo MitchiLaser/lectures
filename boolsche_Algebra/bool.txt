@@ -1,0 +1,76 @@
+Rechenregeln zur boolschen Aussagenlogik:
+=========================================
+
+Funktionen mit Konstanten
+-------------------------
+
+(1)  0 ∧ 0 = 0
+(2)  0 ∧ 1 = 0
+(3)  1 ∧ 0 = 0
+(4)  1 ∧ 1 = 1
+
+(5)  0 ∨ 0 = 0
+(6)  0 ∨ 1 = 1
+(7)  1 ∨ 0 = 1
+(8)  1 ∨ 1 = 1
+
+(9)  ¬0 = 1
+(10) ¬1 = 0
+
+Funktionen mit einer Variablen
+------------------------------
+
+(11) 0 ∧ a = 0
+(12) 1 ∧ a = a
+(13) a ∧ a = a
+(14) ¬a ∧ a = 0
+
+(15) 0 ∨ a = 0
+(16) 1 ∨ a = a
+(17) a ∨ a = a
+(18) ¬a ∨ a = 0
+
+Doppelte Negation
+-----------------
+
+(19) ¬(¬0) = 0
+(20) ¬(¬1) = 1
+
+Kommutativgesetz (Vertauschungsgesetz)
+--------------------------------------
+
+(22) a ∧ b ∧ c = a ∧ c ∧ b = b ∧ a ∧ c = ...
+(23) a ∨ b ∨ c = a ∨ c ∨ b = b ∨ a ∨ c = ...
+
+Assoziativgesetz (Zuordnungsgesetz)
+-----------------------------------
+
+(24) a ∧ (b ∧ c) = (a ∧ b) ∧ c =  (a ∧ c) ∧ b
+(25) a ∨ (b ∨ c) = (a ∨ b) ∨ c =  (a ∨ c) ∨ b
+
+Distributivgesetz (Verteilungsgesetz)
+-------------------------------------
+
+(26) a ∧ (b ∨ c) = (a ∧ b) ∨ (a ∧ c) 
+(27) a ∨ (b ∧ c) = (a ∨ b) ∧ (a ∨ c) 
+
+De Morgansches Theorem
+----------------------
+
+(28) ¬( a ∨ b ∨ ... ∨ n ) =  ¬a ∧ ¬b ∧ ... ∧ ¬n 
+(29) ¬( a ∧ b ∧ ... ∧ n ) =  ¬a ∨ ¬b ∨ ... ∨ ¬n 
+
+(30) ¬( f( ¬a, b, ¬c, ..., ∨, ∧ ) ) = f( a, ¬b, c, ..., ∧, ∨ )
+
+
+Kürzungsregeln
+--------------
+
+(31) a ∨ (a ∧ b) = a
+(32) a ∧ (a ∨ b) = a
+
+(33) a ∨ (¬a ∧ b) = a ∨ b
+(34) a ∧ (¬a ∨ b) = a ∧ b
+
+(35) (a ∧ b) ∨ (a ∧ ¬b) = a
+(36) (a ∨ b) ∧ (a ∨ ¬b) = a
