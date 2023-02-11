@@ -136,3 +136,9 @@ Schaltfunktionen für 2 Eingangsvariablen
 |     1 1 1 1 | 1          | Einsfunktion               |                     |
 |-----------------------------------------------------------------------------|
 
+
+Vorrangregeln
+=============
+
+Klammern binden am stärksten. Das Zeichen ¬ bindet stärker als alle anderen Zeichen. Die Zeichen ∧, ∨, ⊼ und ⊽ binden stärker als die Zeichen ⇒, ⇔ und ⊻ (Antivalenz = XOR)
+
