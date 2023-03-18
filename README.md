@@ -17,6 +17,10 @@ Ein Paar Vorlesungsmitschriebe und Notizen dazu
 │   └── Fourier.tex » noch komplett leer
 ├── GammaPDF
 │   └── playground.py
+├── Linux-Tools
+│   ├── Bash-Einfuehrung-Benutzung.pdf
+│   ├── Gnu-Nano.pdf
+│   └── Linux_find_notes.pdf
 ├── README.md
 ├── TM2
 │   └── Klausurvorbereitung.pdf » Nicht von mir erstellt
