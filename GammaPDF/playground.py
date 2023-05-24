@@ -71,7 +71,7 @@ x_lim_slider = Slider(
     orientation="vertical"
 )
 
-## fuction call to update the x and y values of the function
+## function call to update the x and y values of the function
 def update(val):
     global x
     global y
