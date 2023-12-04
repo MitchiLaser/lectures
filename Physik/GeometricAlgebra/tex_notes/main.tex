@@ -1,0 +1,20 @@
+\documentclass[..]{include/layout}
+
+\begin{document}
+	\include{include/titlepage.tex} % Titelseite
+	\setcounter{page}{1} % Beginne mit der Seitenzahl erst ab dem Inhaltsverzeichnis
+	\tableofcontents % Inhaltsverzeichnis erstellen
+	\newpage
+
+	% TODO Liste für todo notes
+	\makeatletter
+	\@todonotes@SetTodoListName{Todo Liste}
+	\makeatother
+	\listoftodos
+	\newpage
+
+	% Hier werden die einzelnen Kapitel eingebunden
+	\include{chaps/introduction.tex}
+
+\end{document}
+
